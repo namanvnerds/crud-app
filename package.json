@@ -1,20 +1,26 @@
 {
-  "name": "crud-app",
+  "name": "crud_app",
   "version": "1.0.0",
-  "description": "crud-app for students",
+  "description": "crud application with express and mongodb",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "nodemon": "nodemon server.js"
+    "start": "nodemon server.js"
   },
-  "author": "Naman",
+  "keywords": [
+    "crud",
+    "mongodb"
+  ],
+  "author": "akshay kashyap",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.6",
+    "axios": "^0.21.4",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "mongoose": "^6.0.10"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.13"
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
   }
 }
